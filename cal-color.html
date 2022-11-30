@@ -2,10 +2,22 @@
 <head>
 <title>Calculette HTML</title>
 </head>
-<body  bgcolor= "#266" text= "gold">
+
+<body  bgcolor= "#255" text= "gold">
+<style>
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.button {background-color: #4CAF50;} /* Green */
+
+
+</style>
 <form name="calculette" >
-<input  style="font-size: 20px; color:bleu; type="button" value="1" onClick="document.calculette.ans.value+='1'">
-<input  style="font-size: 30px; color:bleu; type="button" value="2" onClick="document.calculette.ans.value+='2'">
+<input button class="button button1" type="button" value="1" onClick="document.calculette.ans.value+='1'">
+<input type="button" value="2" onClick="document.calculette.ans.value+='2'">
 <input type="button" value="3" onClick="document.calculette.ans.value+='3'">
 <input type="button" value="+" onClick="document.calculette.ans.value+='+'">
 <br> <br>
